@@ -1,1 +1,1 @@
-worker: python christ.py
+worker: python bot.py
