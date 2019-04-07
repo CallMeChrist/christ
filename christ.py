@@ -317,5 +317,5 @@ async def userinfo(ctx, user: discord.Member):
     await bot.say("User highest role is: `{}`".format(user.top_role))
     await bot.say("User joined at: `{}`".format(user.joined_at))
 
+bot.run(os.getenv('Token'))
 
-bot.run('Token')
