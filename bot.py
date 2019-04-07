@@ -226,4 +226,4 @@ async def presence(ctx,text:str,type:int):
         
  
 bot.loop.create_task(change_status())
-bot.run("NTU1ODMzNDYyMDYyNTc5NzQz.XKMWMw.hNm8WYSzma2DwcYgeAOUYhGpi1Q")
+client.run(str(os.environ.get('TOKEN')))
