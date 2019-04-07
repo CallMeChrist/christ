@@ -318,4 +318,4 @@ async def userinfo(ctx, user: discord.Member):
     await bot.say("User joined at: `{}`".format(user.joined_at))
 
 
-
+bot.run('token')
