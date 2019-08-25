@@ -77,7 +77,7 @@ async def ping(ctx):
 
 @client.event
 async def on_ready():
-	await client.change_presence(game=discord.Game(name='Bitch Lasagna 🎶 | $help', type = 1))
+	await client.change_presence(game=discord.Game(name='bit.ly/christs | $help', type = 1))
 
 
 @client.command()
